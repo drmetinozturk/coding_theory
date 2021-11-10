@@ -6,8 +6,8 @@ clearvars;
 close all;
 dbstop if error;
 num_days = 365; % number of days considered
-num_trial = 1e3; % number of trials for monte-carlo simulation
-num_ppl = 1:5:100; % number of people in the set
+num_trial = 1e4; % number of trials for monte-carlo simulation
+num_ppl = 1:1:100; % number of people in the set
 counter = zeros(length(num_ppl),1); % a counter that counts if there are at least two people with the same birthday
 for j = 1:length(num_ppl)
     bdays = randi(num_days,num_ppl(j),num_trial); % randomly generated birthdays for everyone in the set and for all the trials
