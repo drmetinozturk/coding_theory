@@ -21,4 +21,4 @@ figure;
 plot(prob, 'linewidth', 2.5);
 grid on;
 xlabel('Number of people in the set');
-ylabel('Probability of at least two people have the same bday');
+ylabel('Probability of at least two people having the same bday');
