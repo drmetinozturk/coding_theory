@@ -1,6 +1,6 @@
 % This code is to calculate the probability of at least two people,
 % from a set (e.g., students in a classroom),
-% were born on exactly the same day in a cluster.
+% were born on exactly the same day.
 clc;
 clearvars;
 close all;
